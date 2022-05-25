@@ -1,0 +1,128 @@
+/*BOOK US PAGE*/
+
+.flop-1 {
+    height: 200px;
+    position: relative;
+    background-position: top center;
+}
+
+.flop-1 .slider-text {
+    height: 500px;
+}
+
+.flop-1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .8 !important;
+    background: #00000038;
+}
+
+.breadcrumbs {
+    margin-top: -350px!important;
+    font-size: 16px;
+    margin-bottom: 5px;
+    z-index: 99;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumbs span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs span i {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs span a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.breadcrumbs span a:hover,
+.breadcrumbs span a:focus {
+    color: #fc5e28;
+}
+
+.breadcrumbs span a:hover i,
+.breadcrumbs span a:focus i {
+    color: #fc5e28;
+}
+
+.bread {
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+    .bread {
+        font-size: 36px;
+    }
+}
+
+.social {
+    display: inline-block;
+}
+
+.social p a {
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: 2px;
+    border-radius: 50%;
+}
+
+.social p a span {
+    color: #fc5e28;
+}
+
+.social p a:hover span {
+    color: #fc5e28;
+}
+
+
+/*HOME PAGE*/
+
+.flop-2 {
+    height: 500px;
+    position: relative;
+    background-position: top center;
+}
+
+.flop-2 .slider-text {
+    height: 400px;
+}
+
+.flop-2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .8 !important;
+    background: #0D0504;
+}
+
+.slider-text h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hope {
+    margin-top: -200px!important;
+}
